@@ -1,0 +1,11 @@
+USE ROLE movies_reader_role;
+USE DATABASE movies;
+DESCRIBE DATABASE movies;
+DESCRIBE SCHEMA staging;
+DESC TABLE staging.netflix;
+SHOW SCHEMAS;
+USE SCHEMA staging;
+SHOW TABLES;
+USE WAREHOUSE dev_wh;
+SELECT * FROM netflix;
+SELECT COUNT(*) FROM netflix;
